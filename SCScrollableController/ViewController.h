@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCScrollableController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : SCScrollableController
 
 
 @end

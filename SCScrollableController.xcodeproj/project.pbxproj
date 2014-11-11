@@ -14,6 +14,7 @@
 		1A55980A1A12C3870096D6C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5598091A12C3870096D6C1 /* Images.xcassets */; };
 		1A55980D1A12C3870096D6C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A55980B1A12C3870096D6C1 /* LaunchScreen.xib */; };
 		1A5598191A12C3880096D6C1 /* SCScrollableControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5598181A12C3880096D6C1 /* SCScrollableControllerTests.m */; };
+		1A5598241A12C3F70096D6C1 /* SCScrollableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5598231A12C3F70096D6C1 /* SCScrollableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1A5598121A12C3880096D6C1 /* SCScrollableControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCScrollableControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5598171A12C3880096D6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5598181A12C3880096D6C1 /* SCScrollableControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCScrollableControllerTests.m; sourceTree = "<group>"; };
+		1A5598221A12C3F70096D6C1 /* SCScrollableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScrollableController.h; sourceTree = "<group>"; };
+		1A5598231A12C3F70096D6C1 /* SCScrollableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCScrollableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1A5598011A12C3870096D6C1 /* AppDelegate.m */,
 				1A5598031A12C3870096D6C1 /* ViewController.h */,
 				1A5598041A12C3870096D6C1 /* ViewController.m */,
+				1A5598221A12C3F70096D6C1 /* SCScrollableController.h */,
+				1A5598231A12C3F70096D6C1 /* SCScrollableController.m */,
 				1A5598061A12C3870096D6C1 /* Main.storyboard */,
 				1A5598091A12C3870096D6C1 /* Images.xcassets */,
 				1A55980B1A12C3870096D6C1 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5598241A12C3F70096D6C1 /* SCScrollableController.m in Sources */,
 				1A5598051A12C3870096D6C1 /* ViewController.m in Sources */,
 				1A5598021A12C3870096D6C1 /* AppDelegate.m in Sources */,
 				1A5597FF1A12C3870096D6C1 /* main.m in Sources */,
@@ -346,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SCScrollableController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SCScrollableController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
