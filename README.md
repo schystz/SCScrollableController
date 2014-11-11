@@ -1,6 +1,6 @@
 SCScrollableController
 ======================
-A UIViewController with a scrollview for automatically scrolling contents when keyboard appears.
+A UIViewController with a scrollview for automatically scrolling contents when keyboard appears. It will also dismiss the keyboard once you tap on the background view.
 
 How to use?
 -----------
